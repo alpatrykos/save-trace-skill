@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0",
+  "trace_id": "trc_20260408_8f3a2c",
+  "session_id": "sess_91b2",
+  "parent_trace_id": null,
+  "timestamp_start": "2026-04-08T18:10:04Z",
+  "timestamp_end": "2026-04-08T18:10:22Z",
+  "task": {
+    "type": "question_answering",
+    "intent": "design_skill",
+    "input": "design a skill for saving traces",
+    "normalized_input": "Design an agent skill that saves traces for later analysis."
+  },
+  "execution": {
+    "status": "success",
+    "outcome_summary": "Produced trace-saving skill design with schema, triggers, storage, and safeguards.",
+    "steps": [
+      {
+        "step_id": "s1",
+        "type": "reasoning_summary",
+        "summary": "Defined purpose, triggers, schema, storage, and privacy controls."
+      }
+    ],
+    "tool_calls": [],
+    "errors": []
+  },
+  "result": {
+    "final_output": "Here is a solid agent skill for saving traces...",
+    "output_hash": "sha256:abc123"
+  },
+  "privacy": {
+    "contains_pii": false,
+    "redactions_applied": []
+  },
+  "tags": ["trace", "observability", "agent", "skill"],
+  "search_text": "saving traces skill structured trace storage agent workflow"
+}

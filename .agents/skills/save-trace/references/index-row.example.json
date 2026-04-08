@@ -1,0 +1,8 @@
+{
+  "trace_id": "trc_20260408_8f3a2c",
+  "timestamp": "2026-04-08T18:10:22Z",
+  "status": "success",
+  "task_type": "question_answering",
+  "tags": ["trace", "skill"],
+  "search_text": "saving traces skill structured trace storage agent workflow"
+}
