@@ -1,8 +1,11 @@
 {
-  "schema_version": "1.0",
+  "schema_version": "1.1",
   "trace_id": "trc_20260408_8f3a2c",
   "session_id": "sess_91b2",
   "parent_trace_id": null,
+  "record_kind": "final",
+  "checkpoint_seq": 3,
+  "is_terminal": true,
   "timestamp_start": "2026-04-08T18:10:04Z",
   "timestamp_end": "2026-04-08T18:10:22Z",
   "task": {
@@ -13,15 +16,25 @@
   },
   "execution": {
     "status": "success",
-    "outcome_summary": "Produced trace-saving skill design with schema, triggers, storage, and safeguards.",
+    "outcome_summary": "Produced trace-saving skill design with schema, checkpoints, storage, and safeguards.",
     "steps": [
       {
         "step_id": "s1",
-        "type": "reasoning_summary",
-        "summary": "Defined purpose, triggers, schema, storage, and privacy controls."
+        "type": "decision_summary",
+        "summary": "Defined purpose, triggers, schema, checkpoint model, storage, and privacy controls."
       }
     ],
-    "tool_calls": [],
+    "tool_calls": [
+      {
+        "call_id": "call_1",
+        "tool_name": "inspect_repository",
+        "status": "success",
+        "started_at": "2026-04-08T18:10:05Z",
+        "ended_at": "2026-04-08T18:10:08Z",
+        "input_summary": "Inspected the existing skill package and reference files.",
+        "output_summary": "Loaded the current schema and checklist examples."
+      }
+    ],
     "errors": []
   },
   "result": {
@@ -30,7 +43,8 @@
   },
   "privacy": {
     "contains_pii": false,
-    "redactions_applied": []
+    "redactions_applied": [],
+    "search_text_source": "redacted_content_only"
   },
   "tags": ["trace", "observability", "agent", "skill"],
   "search_text": "saving traces skill structured trace storage agent workflow"

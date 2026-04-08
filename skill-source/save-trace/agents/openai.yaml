@@ -3,4 +3,4 @@ interface:
   short_description: "Add structured persistence for agent execution traces"
   default_prompt: "Use $save-trace to add persistent structured execution traces for an AI agent or tool-using workflow."
 policy:
-  allow_implicit_invocation: false
+  allow_implicit_invocation: true
