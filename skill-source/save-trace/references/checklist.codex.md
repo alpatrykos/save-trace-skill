@@ -5,7 +5,7 @@
 - [ ] `name` is `save-trace`
 - [ ] `description` clearly distinguishes agent execution traces from stack traces and APM
 - [ ] `agents/openai.yaml` exists
-- [ ] implicit invocation is disabled
+- [ ] `policy.allow_implicit_invocation: false` is set in `agents/openai.yaml`
 - [ ] reference examples are present
 
 ## Skill behavior

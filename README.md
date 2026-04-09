@@ -57,6 +57,11 @@ That script builds:
 - the agent (Codex) package in [`.agents/skills/save-trace`](.agents/skills/save-trace)
 - the Claude package in [`.claude/skills/save-trace`](.claude/skills/save-trace)
 
+Both generated packages are configured for explicit invocation only:
+
+- Codex via `policy.allow_implicit_invocation: false` in `agents/openai.yaml`
+- Claude Code via `disable-model-invocation: true` in `SKILL.md`
+
 ## How To Use The Skill
 
 Typical prompt:
